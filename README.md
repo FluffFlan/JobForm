@@ -11,7 +11,7 @@ This template should help get you started developing with Vue 3 in Vite.
 See [Vite Configuration Reference](https://vite.dev/config/).
 
 ## Project Setup
-To use this project, you must have npm or node installed. To do so, (visit)[https://nodejs.org/en/download/package-manager].
+To use this project, you must have npm or node installed. To do so, [visit](https://nodejs.org/en/download/package-manager).
 After completing said step begin at get started.
 ### Getting Started
 Clone the repository and then in a terminal, change the directory to where the project is kept. Afterward, run this command
