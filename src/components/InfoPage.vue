@@ -323,13 +323,12 @@ export default {
         .map(state => state.name); // Extract just the state names
         //console.log(this.filteredStates);
         
-    }
-  },
-  methods: {
+    },
+    
     goToInfoPage() {
-            this.$router.push({ name: 'Experience' });
-        }
-    }
+      this.$router.push({ name: "Experience" });
+    },
+  },
 };
 </script>
 

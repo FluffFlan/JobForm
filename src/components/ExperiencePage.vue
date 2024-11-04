@@ -1,7 +1,6 @@
 
 <template>
 
-
     <v-form>
         <v-app-bar 
             app color="primary" dark
@@ -43,5 +42,5 @@
     }
 
 
-    
+
 </style>
