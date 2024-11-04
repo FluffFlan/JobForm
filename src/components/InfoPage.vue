@@ -227,13 +227,13 @@
             <v-row justify="center">
                 <v-col cols="auto">
                     <v-btn
-
+                        
                         variant="outlined" 
                         size="large" 
                         density="comfortable"
                         rounded="lg"
                         elevation="8"
-
+                        v-on:click="goToInfoPage"
                     >Next</v-btn>
                 </v-col>
             </v-row>
@@ -324,7 +324,12 @@ export default {
         //console.log(this.filteredStates);
         
     }
-  }
+  },
+  methods: {
+    goToInfoPage() {
+            this.$router.push({ name: 'Experience' });
+        }
+    }
 };
 </script>
 
