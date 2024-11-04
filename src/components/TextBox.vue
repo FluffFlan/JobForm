@@ -222,9 +222,24 @@
 
             </v-col>
         </v-container>
+
+        <v-container>
+            <v-row justify="center">
+                <v-col cols="auto">
+                    <v-btn
+
+                        variant="outlined" 
+                        size="large" 
+                        density="comfortable"
+                        rounded="lg"
+                        elevation="8"
+
+                    >Next</v-btn>
+                </v-col>
+            </v-row>
+        </v-container>
     </v-form>
 
-    
 </template>
   
 <script>
