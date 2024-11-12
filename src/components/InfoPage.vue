@@ -3,16 +3,22 @@
     
 
     <v-form>
-        <v-app-bar 
-        app color="primary" dark
-        density='compact'
-        elevation="3"
-        scroll-behavior='collapse'
-        rounded="xs"
-        ><v-app-bar-title class="custom-header">{{ appTitle }}</v-app-bar-title>
-        </v-app-bar>
+      <v-app-bar 
+          app color="primary" dark
+          density="compact"
+          elevation="3"
+          scroll-behavior="collapse"
+          rounded="xs"
+      >
+        <v-app-bar-title class="custom-header">{{ appTitle }}</v-app-bar-title>
+      </v-app-bar>
+    </v-form>
 
-        <h1>My Information</h1>
+    <h1>My Information</h1>
+    <v-form>
+
+
+
         <v-container>
 
             <v-col cols="12" sm="10">
