@@ -4,16 +4,19 @@
 <template>
   <v-app>
     <v-main class="custom-main">
-      <TextBox />
+      <nav>
+        <router-link to="/Home">Home</router-link> |
+        <router-link to="/Information">Info</router-link> |
+        <router-link to="/Experience">Experience</router-link> |
+        <router-link to="/Questions">Questions</router-link> 
+      </nav>
+      <router-view />
     </v-main>
   </v-app>
 </template>
 
 <script setup>
 import './assets/main.css';
-import TextBox from './components/TextBox.vue';
-import HelloWorld from './components/HelloWorld.vue';
-import TheWelcome from './components/TheWelcome.vue';
 </script>
 
 <style scoped>
