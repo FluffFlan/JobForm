@@ -1,0 +1,16 @@
+html, body, #app, .v-main {
+  background-color: rgb(255, 255, 255);
+  color: rgb(15, 136, 248);
+  font-weight: 900;
+  height: 130vh; /* Full viewport height */
+  margin: 0;
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: flex-start; /* Aligns content to the top */
+  padding-bottom: 20px; 
+}
+
+#app {
+  display: block;
+  padding: 0;
+}

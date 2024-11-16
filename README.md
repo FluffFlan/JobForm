@@ -1,0 +1,26 @@
+# JobForm
+
+This template should help get you started developing with Vue 3 in Vite.
+
+## Recommended IDE Setup
+
+[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+
+## Customize configuration
+
+See [Vite Configuration Reference](https://vite.dev/config/).
+
+## Project Setup
+To use this project, you must have npm or node installed. To do so, [visit Nodejs](https://nodejs.org/en/download/package-manager).
+After completing said step begin at get started.
+### Getting Started
+Clone the repository and then in a terminal, change the directory to where the project is kept. Afterward, run this command
+```sh
+npm run dev
+```
+You should see this page load once you click the local server:
+![alt text](https://raw.githubusercontent.com/FluffFlan/JobForm/refs/heads/dev/Images%5BREADME%5D/FrontPage.PNG?token=GHSAT0AAAAAACZ5A5RP33ZEPITK5DJB75KWZZIAPGQ "Title Page")
+This is the Title Page
+### Compile and Hot-Reload for Development
+
+
