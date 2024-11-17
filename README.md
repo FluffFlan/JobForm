@@ -34,5 +34,5 @@ npm install vite --save-dev
 npm run dev
  ```
 You should see this page load once you click the local server by holding CTRL on the keyboard:
-![alt text](JobForm-test/Images/README/WelcomePage.png "Title Page")
+![alt text](https://github.com/FluffFlan/JobForm/tree/dev/Images[README]/WelcomePage.png "Title Page")
 This is the Home Page. Once here you may start utilizing the prototype Jobform.
