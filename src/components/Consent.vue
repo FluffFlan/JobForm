@@ -37,7 +37,28 @@ h1 {text-align: center}
         </ol>
     </p> <br><br>
     <v-checkbox label="I consent to the list stated above" class="custom-text"></v-checkbox>
-    <v-btn>Submit</v-btn>
+    <v-btn
+        class="fixed-next-button"
+        variant="outlined"
+        size="large"
+        density="comfortable"
+        rounded="lg"
+        elevation="8"
+        v-on:click="goDonePage"
+        >
+          Submit
+        </v-btn>
+        <v-btn
+        class="fixed-previous-button"
+        variant="outlined"
+        size="large"
+        density="comfortable"
+        rounded="lg"
+        elevation="8"
+        v-on:click="goQuestionPage"
+        >
+          Previous
+        </v-btn>
     </v-form>
 </template>
 
@@ -53,8 +74,11 @@ export default {
   },
 
   methods:{
-      goInfoPage() {
-          this.$router.push({ name: "Info" });
+      goDonePage() {
+        this.$router.push({ name: "Done" });
+      },
+      goQuestionPage() {
+          this.$router.push({ name: "Questions" });
       },
   },
 
@@ -110,16 +134,16 @@ export default {
 
 
     .fixed-next-button {
-        bottom: -850px; /* Adjust the distance from the bottom */
-        left: -200px;
+        bottom: 20px; /* Adjust the distance from the bottom */
+        left: 165px;
         z-index: 1000; /* Ensure it stays on top of other content */
         background-color: white; /* Optional: match your theme */
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow */
     }
 
     .fixed-previous-button {
-        bottom: -850px; /* Adjust the distance from the bottom */
-        right: 700px;
+        bottom: 20px; /* Adjust the distance from the bottom */
+        left: -100px;
         z-index: 1000; /* Ensure it stays on top of other content */
         background-color: white; /* Optional: match your theme */
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow */
@@ -134,7 +158,7 @@ export default {
         position:absolute; 
         top: 100px; 
         left: 0;
-        width: 118%; 
+        width: 104%; 
         z-index: 100; 
         background-color: white; 
         padding: 10px 0; 

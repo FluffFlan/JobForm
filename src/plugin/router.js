@@ -4,6 +4,7 @@ import ExperiencePage from '../components/ExperiencePage.vue';
 import Questions from '../components/Questions.vue';
 import HomePage from '../components/HomePage.vue';
 import Consent from '../components/Consent.vue';
+import DonePage from '../components/DonePage.vue';
 
 const routes = [
   { path: '/Information', name: 'Info', component: InfoPage },
@@ -11,6 +12,7 @@ const routes = [
   { path: '/Questions', name: 'Questions', component: Questions },
   { path: '/Home', name: 'Home', component: HomePage },
   { path: '/Consent', name: 'Consent', component: Consent },
+  { path: '/Done', name: 'Done', component: DonePage },
 ];
 
 const router = createRouter({
