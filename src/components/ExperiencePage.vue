@@ -452,7 +452,7 @@
     font-weight: bold;
     position:absolute; 
     top: 100px; 
-    left: 0;
+    left: ;
     width: 100%; 
     z-index: 100; 
     background-color: white; 

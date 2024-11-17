@@ -126,13 +126,6 @@ export default {
     }
 
 
-
-
-    h2 {
-        margin: 0 0 10px 0; /* Ensure spacing only below */
-        font-size: 18px;
-    }
-
     h1 {
         margin-top: 10px; 
         text-align: center; 
@@ -141,7 +134,7 @@ export default {
         position:absolute; 
         top: 100px; 
         left: 0;
-        width: 100%; 
+        width: 118%; 
         z-index: 100; 
         background-color: white; 
         padding: 10px 0; 
