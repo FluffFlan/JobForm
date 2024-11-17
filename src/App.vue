@@ -4,10 +4,8 @@
 <template>
   <v-app>
     <v-main class="custom-main">
-      <nav>
-
-      </nav>
-      <!----><router-view />
+      
+      <router-view />
     </v-main>
   </v-app>
 </template>

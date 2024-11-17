@@ -7,10 +7,10 @@ import Consent from '../components/Consent.vue';
 import DonePage from '../components/DonePage.vue';
 
 const routes = [
+  { path: '/', name: 'Home', component: HomePage },
   { path: '/Information', name: 'Info', component: InfoPage },
   { path: '/Experience', name: 'Experience', component: ExperiencePage },
   { path: '/Questions', name: 'Questions', component: Questions },
-  { path: '/Home', name: 'Home', component: HomePage },
   { path: '/Consent', name: 'Consent', component: Consent },
   { path: '/Done', name: 'Done', component: DonePage },
 ];
