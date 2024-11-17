@@ -8,7 +8,8 @@
         <router-link to="/Home">Home</router-link> |
         <router-link to="/Information">Info</router-link> |
         <router-link to="/Experience">Experience</router-link> |
-        <router-link to="/Questions">Questions</router-link> 
+        <router-link to="/Questions">Questions</router-link> |
+        <router-link to="/Consent">Consent</router-link> |
       </nav>
       <router-view />
     </v-main>

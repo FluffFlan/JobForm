@@ -237,9 +237,9 @@
         rounded="lg"
         elevation="8"
         v-on:click="goToExperiencePage"
-    >
-        Next
-    </v-btn>
+        >
+            Next
+        </v-btn>
 
     <v-btn
       class="fixed-previous-button"                        

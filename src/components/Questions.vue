@@ -91,7 +91,7 @@
         density="comfortable"
         rounded="lg"
         elevation="8"
-        v-on:click="goQuestionPage"
+        v-on:click="goConsentePage"
     >
         Next
     </v-btn>
@@ -120,7 +120,9 @@ export default {
         goExperiencePage() {
         this.$router.push({ name: "Experience" });
       },
-
+      goConsentPage() {
+        this.$router.push({ name: "Consent" });
+      },
     }
 };
 </script>
